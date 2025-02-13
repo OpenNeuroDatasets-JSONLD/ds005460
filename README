@@ -11,7 +11,9 @@ The `participants.tsv` file contains the demographic and questionnaire data of e
 
 Additionally, the repository includes subject-wise `*_events.tsv` files, containing behavioural data for each task, along with corresponding `*_events.json` sidecar files that provide metadata necessary to understand their content.
 
-Due to anonymity protection, we do not share unprocessed brain images of the participants. The derivatives directory contains the MRIQC and fMRIprep output.
+The neuroimaging data includes both raw and preprocessed images. Anatomical images have been defaced to protect the anonymity of study participants.
+
+The derivatives directory contains the MRIQC and fMRIprep output.
 * In the case of MRIQC output, we share the summary file `group_bold.tsv`, which contains image quality metrics for all participants. 
 * In the case of fMRIprep output, we share subject-wise data organized in `sub-*` folders with preprocessed functional data, confound time series (allowing for motion and physiological noise correction), individual brain masks for each task and session, as well as accompanying `.json` sidecar files.
 
