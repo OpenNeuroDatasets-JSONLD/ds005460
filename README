@@ -25,4 +25,5 @@ These derivative files are named in the following convention:
 **Note:** Data from several participants have been flagged as poor quality based on MRIQC metrics, including temporal signal-to-noise ratio (tSNR) and framewise displacement (FD). Additionally, for one participant (`sub-1512a`), a run (`task-stories_run-03`) was identified where technical issues compromised the data acquisition. As a result, we recommend excluding the following participants from the analyses:
 * RRES task: `sub-2112b`, `sub-2911e`, `sub-0712b`, `sub-0712c`, `sub-1512d`, `sub-1512a`
 * CET task: `sub-2112b`, `sub-2911e`, `sub-0712b`, `sub-0712c`, `sub-1312d`, `sub-3011a`.
+
 However, we are making the data from these participants available for other researchers who may wish to apply different exclusion criteria.
