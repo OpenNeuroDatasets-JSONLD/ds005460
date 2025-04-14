@@ -1,0 +1,17 @@
+{
+  "AcquisitionDuration": 290.912,
+  "DelayTime": 0.08749999999999991,
+  "RepetitionTime": 2,
+  "SkullStripped": false,
+  "SliceTimingCorrected": true,
+  "Sources": [
+    "bids:raw:sub-0912e/func/sub-0912e_task-stories_run-03_bold.nii.gz",
+    "bids::sub-0912e/func/sub-0912e_task-stories_run-03_from-orig_to-boldref_mode-image_desc-hmc_xfm.txt",
+    "bids::sub-0912e/func/sub-0912e_task-stories_run-03_from-boldref_to-auto00000_mode-image_xfm.txt",
+    "bids::sub-0912e/func/sub-0912e_task-stories_run-03_from-boldref_to-T1w_mode-image_desc-coreg_xfm.txt",
+    "bids::sub-0912e/anat/sub-0912e_from-T1w_to-MNI152NLin2009cAsym_mode-image_xfm.h5",
+    "bids:templateflow:tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_T1w.nii.gz"
+  ],
+  "StartTime": 0.956,
+  "TaskName": "stories"
+}

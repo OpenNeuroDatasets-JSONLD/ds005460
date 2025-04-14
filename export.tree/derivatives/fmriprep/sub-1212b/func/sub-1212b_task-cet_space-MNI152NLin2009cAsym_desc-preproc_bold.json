@@ -1,0 +1,17 @@
+{
+  "AcquisitionDuration": 780.912,
+  "DelayTime": 0.08499999999999996,
+  "RepetitionTime": 2,
+  "SkullStripped": false,
+  "SliceTimingCorrected": true,
+  "Sources": [
+    "bids:raw:sub-1212b/func/sub-1212b_task-cet_bold.nii.gz",
+    "bids::sub-1212b/func/sub-1212b_task-cet_from-orig_to-boldref_mode-image_desc-hmc_xfm.txt",
+    "bids::sub-1212b/func/sub-1212b_task-cet_from-boldref_to-auto00000_mode-image_xfm.txt",
+    "bids::sub-1212b/func/sub-1212b_task-cet_from-boldref_to-T1w_mode-image_desc-coreg_xfm.txt",
+    "bids::sub-1212b/anat/sub-1212b_from-T1w_to-MNI152NLin2009cAsym_mode-image_xfm.h5",
+    "bids:templateflow:tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_T1w.nii.gz"
+  ],
+  "StartTime": 0.958,
+  "TaskName": "cet"
+}
